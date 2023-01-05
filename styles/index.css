@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    h4 {
+        @apply text-lg font-medium text-gray-500;
+      }
+}
