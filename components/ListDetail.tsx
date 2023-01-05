@@ -29,7 +29,7 @@ const ListDetail = ({
         <p className="px-8 mt-8 mb-12 text-lg">
           Cupiditate minima voluptate temporibus
           quia? Architecto beatae esse ab amet
-          vero eaque explicabo XXX!
+          vero eaque explicabo!
         </p>
         <div className="flex flex-wrap justify-center">
           <button className="px-8 py-3 m-2 text-lg font-semibold rounded bg-lime-600 text-gray-50">
