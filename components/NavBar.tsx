@@ -7,15 +7,8 @@ function NavBar({}: Props) {
     <div>
       <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
-          <a
-            href="/"
-            className="flex items-center"
-          >
-            <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="h-6 mr-3 sm:h-9"
-              alt="Flowbite Logo"
-            />
+          <a href="/" className="flex items-center">
+            <img src="/favicon.ico" className="h-6 mr-3 sm:h-9" alt="Web3 Edu Logo" />
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
               Web3 Edu
             </span>
@@ -29,14 +22,8 @@ function NavBar({}: Props) {
               data-dropdown-toggle="user-dropdown"
               data-dropdown-placement="bottom"
             >
-              <span className="sr-only">
-                Open user menu
-              </span>
-              <img
-                className="w-8 h-8 rounded-full"
-                src="/favicon.ico"
-                alt="icon"
-              />
+              <span className="sr-only">Open user menu</span>
+              <img className="w-8 h-8 rounded-full" src="/favicon.ico" alt="icon" />
             </button>
             {/* Dropdown menu  */}
             <div
@@ -44,17 +31,12 @@ function NavBar({}: Props) {
               id="user-dropdown"
             >
               <div className="px-4 py-3">
-                <span className="block text-sm text-gray-900 dark:text-white">
-                  Bonnie Green
-                </span>
+                <span className="block text-sm text-gray-900 dark:text-white">Bonnie Green</span>
                 <span className="block text-sm font-medium text-gray-500 truncate dark:text-gray-400">
                   name@flowbite.com
                 </span>
               </div>
-              <ul
-                className="py-1"
-                aria-labelledby="user-menu-button"
-              >
+              <ul className="py-1" aria-labelledby="user-menu-button">
                 <li>
                   <a
                     href="#"
@@ -96,9 +78,7 @@ function NavBar({}: Props) {
               aria-controls="mobile-menu-2"
               aria-expanded="false"
             >
-              <span className="sr-only">
-                Open main menu
-              </span>
+              <span className="sr-only">Open main menu</span>
               <svg
                 className="w-6 h-6"
                 aria-hidden="true"

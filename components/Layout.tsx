@@ -10,18 +10,13 @@ type Props = {
   title?: string;
 };
 
-const Layout = ({
-  children,
-  title = "This is the default title",
-}: Props) => (
+const Layout = ({ children, title = "This is the default title" }: Props) => (
   <div>
     <Head>
       <title>{title}</title>
+      <link rel="icon" href="/favicon.ico" />
       <meta charSet="utf-8" />
-      <meta
-        name="viewport"
-        content="initial-scale=1.0, width=device-width"
-      />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <header>
       <nav>
@@ -36,7 +31,4 @@ const Layout = ({
   </div>
 );
 
-export default dynamic(
-  () => Promise.resolve(Layout),
-  { ssr: false }
-);
+export default dynamic(() => Promise.resolve(Layout), { ssr: false });
